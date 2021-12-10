@@ -17,7 +17,7 @@
             <form class="card-body" method="POST" action="functions/modelo-registro.php">
                <label for="medicion" class="form-label">Medición</label>
 
-               <input type="number" class="form-control" id="medicion" placeholder="Ingrese el resultado obtenido" name="medicion" autocomplete="off">
+               <input type="number" step="0.01" class="form-control" id="medicion" placeholder="Ingrese el resultado obtenido" name="medicion" autocomplete="off">
 
 
 
